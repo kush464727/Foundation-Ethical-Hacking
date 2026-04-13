@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="input" placeholder="Type here">
+<p id="log"></p>
+
+<script>
+document.addEventListener("keypress", function(e) {
+    document.getElementById("log").innerHTML += e.key;
+});
+</script>
+
+</body>
+</html>
